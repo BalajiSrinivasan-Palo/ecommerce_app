@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<p>Hello,</p>
+<p>This is a notification that the stock for Product ID: <b th:text="${productEnquiry.productId}"></b> is low.</p>
+<p>Current Stock: <b th:text="${productEnquiry.qty}"></b></p>
+<p>Please consider restocking this item soon.</p>
+<p>Thank you.</p>
+</body>
+</html>
